@@ -1,3 +1,2 @@
 - [部署报不支持web-app_3_0](./weblogic-servlet-api.md)
 - [上传文档报错：servlet-api 2.5](./weblogic-servlet-request-error.md)
-- [OpenJDK生成xml文档的细微差别](./xml-diff.md)
