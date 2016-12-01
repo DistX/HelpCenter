@@ -42,7 +42,7 @@ Implementation-Vendor: Apache Software Foundation
 ```
 从上面可以看到，我这个Tomcat7提供的是3.1的版本。因此，咱们的后台如果用Tomcat7或8来部署，不用考虑此问题，因为咱们的基线里web.xml写的是3.0。如果有一天在web.xml里面写的版本高于了容器实际提供的版本，那么就会出现部署的问题了。
 
-**注意**：如果开发时使用高版本servlet-api，而部署却使用低版本servlet-api，那就可能会出现缺少相应api的情况。高版本肯定会在低版本的基础上添加一些额外功能。比如我就因此遇到过[上传报NoSuchMethodError](./weblogic-servlet-request.md)的问题，请大家注意。
+**注意**：如果开发时使用高版本servlet-api，而部署却使用低版本servlet-api，那就可能会出现缺少相应api的情况。高版本肯定会在低版本的基础上添加一些额外功能。比如我就因此遇到过[上传报NoSuchMethodError](./weblogic-servlet-request-error.md)的问题，请大家注意。
 
 **参考文档:**
 - [http://docs.oracle.com/cd/E24329_01/web.1211/e24494/toc.htm#NOTES260](http://docs.oracle.com/cd/E24329_01/web.1211/e24494/toc.htm#NOTES260)

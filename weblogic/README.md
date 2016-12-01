@@ -1,4 +1,4 @@
 - [部署报不支持web-app_3_0](./weblogic-servlet-api.md)
-- [上传文档报错](#上传文档报错)
+- [上传文档报错：servlet-api 2.5](./weblogic-servlet-request-error.md)
 - [生成xml文档的细微差别](#生成xml文档的细微差别)
 - [日志无法输出到文件](#日志无法输出到文件)
