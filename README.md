@@ -1,2 +1,2 @@
-- [Weblogic相关](./weblogic/README.md)
-- [Oracle相关](./oracle/README.md)
+- [Weblogic相关](./weblogic/)
+- [Oracle相关](./oracle/)
