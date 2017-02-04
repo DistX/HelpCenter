@@ -54,10 +54,10 @@ SIMPLIFIED CHINESE_CHINA.ZHS16GBK
 
 > 如果和数据库不一致需要修改；
 
-* 进入 我的电脑,属性,高级,环境变量,添加2项:
+* 进入 我的`电脑 -> 属性 -> 高级 -> 环境变量`,添加2项:
 
 > LANG=zh_CN.GBK
 
 > NLS_LANG="SIMPLIFIED CHINESE_CHINA.ZHS16GBK" 
 
-* PLSQL DEVELOPER,Tools,Preferences,User InterFace,Fonts,Main Font 修改成中文字体
+* PLSQL DEVELOPER菜单`Tools -> Preferences -> User InterFace -> Fonts -> Main Font`，修改成中文字体。 
