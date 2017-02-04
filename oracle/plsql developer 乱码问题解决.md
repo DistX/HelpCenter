@@ -8,7 +8,7 @@ oracle数据库`字符集`和plsql客户端`不一致`
 
 问题解决
 --------
-1. 修改oracle数据库字符集
+* 修改oracle数据库字符集
 
 ```SQL
 SQL> connect sys as sysdba
@@ -48,16 +48,16 @@ USERENV('LANGUAGE')  `
 SIMPLIFIED CHINESE_CHINA.ZHS16GBK
 ```
 
-2. 修改plsql客户端字符集
+* 修改plsql客户端字符集
 
 ![客户端字符集](https://github.com/hhua161031/ORACLE/blob/master/image/字符.jpg)
 
-如果和数据库不一致需要修改；
+> 如果和数据库不一致需要修改；
 
-3. 进入 我的电脑,属性,高级,环境变量,添加2项:
+* 进入 我的电脑,属性,高级,环境变量,添加2项:
 
 > LANG=zh_CN.GBK
 
 > NLS_LANG="SIMPLIFIED CHINESE_CHINA.ZHS16GBK" 
 
-4. PLSQL DEVELOPER,Tools,Preferences,User InterFace,Fonts,Main Font 修改成中文字体
+* PLSQL DEVELOPER,Tools,Preferences,User InterFace,Fonts,Main Font 修改成中文字体
